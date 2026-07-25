@@ -1,0 +1,205 @@
+.flags{
+    margin: 20px;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.scotland,.filistin,.turkey,.argentina,.brazil,.norway{
+    background: blue;
+    width: 300px;
+    height: 200px;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid black;
+}
+
+.square{
+    position: absolute;
+    width: 420px;
+    height: 28px;
+    background: white;
+    top: 50%;
+    left: 50%;
+    transform-origin: center;
+}
+
+.square1{
+    width: 380px;
+    height: 30px;
+    top: 90px;
+    transform: translate(-53%, -50%) rotate(32deg);
+}
+
+.square2{
+    width: 30px;
+    height: 380px;
+    left: 140px;
+    transform: translate(-50%, -48%) rotate(57deg);
+}
+.bambo{
+    height: 350px;
+    width: 30px;
+    background-color: green;
+    margin-top: -20px;
+    border: 1px solid black;
+}
+.filistin{
+    border-radius: 10px;
+    border: 1px solid black;
+
+}
+
+.rec{
+    width: 100%;
+    height: 33.33333%;
+
+}
+.rec1{
+ background:#000;
+}
+.rec2{
+ background:#fff;
+}
+.rec3{
+ background:#007A3D;
+}
+.squaref{
+    position:absolute;
+    top:0;
+    left:0;
+    width:0;
+    height:0;
+    border-top:100px solid transparent;
+    border-bottom:100px solid transparent;
+    border-left:140px solid #CE1126;
+}
+
+.turkey{
+    background:#E30A17;
+    position:relative;
+    border-radius:12px;
+}
+
+.moon{
+    width:80px;
+    height:80px;
+    background:white;
+    border-radius:50%;
+    position:absolute;
+    top:60px;
+    left:55px;
+}
+
+.moon-inner{
+    width:65px;
+    height:65px;
+    background:#E30A17;
+    border-radius:50%;
+    position:absolute;
+    top:67px;
+    left:72px;
+}
+
+.star{
+    position:absolute;
+    top:66px;
+    left:118px;
+    color:white;
+    font-size:48px;
+    line-height:1;
+}
+.argentina{
+    position:relative;
+    border-radius:12px;
+}
+
+.stripe{
+    width:100%;
+    height:33.33%;
+}
+
+.sky{
+    background:#75AADB;
+}
+
+.white{
+    background:#FFFFFF;
+}
+.sun{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size:40px;
+    color:#F6B40E;
+    line-height:1;
+}
+.brazil{
+
+    background:#009C3B;
+    border-radius:12px;
+}
+.diamond{
+    width:140px;
+    height:140px;
+    background:#FFDF00;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%) rotate(45deg);
+}
+.circle{
+    width:80px;
+    height:80px;
+    background:#002776;
+    border-radius:50%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.norway{
+    width:300px;
+    height:200px;
+    background:#BA0C2F;
+    position:relative;
+    border-radius:12px;
+    overflow:hidden;
+}
+
+/* White Cross */
+.white-v{
+    position:absolute;
+    left:80px;
+    width:40px;
+    height:100%;
+    background:white;
+}
+
+.white-h{
+    position:absolute;
+    top:80px;
+    width:100%;
+    height:40px;
+    background:white;
+}
+
+/* Blue Cross */
+.blue-v{
+    position:absolute;
+    left:90px;
+    width:20px;
+    height:100%;
+    background:#00205B;
+}
+
+.blue-h{
+    position:absolute;
+    top:90px;
+    width:100%;
+    height:20px;
+    background:#00205B;
+}
