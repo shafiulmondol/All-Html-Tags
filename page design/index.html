@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>পণ্য কার্ড | শোケース</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Font Awesome 6 (Free) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    
+    <header class="navbar">
+        <div class="container">
+            <a href="#" class="logo">
+                <i class="fas fa-store-alt"></i>
+                <span>Shopy</span>Fai
+            </a>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Offer</a></li>
+                <li><a href="#">Contuct</a></li>
+                <li><a href="#" class="btn-outline"><i class="fas fa-user"></i> Login</a></li>
+            </ul>
+        </div>
+    </header>
+
+    
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <span class="badge"><i class="fas fa-rocket"></i> New collection</span>
+                <h1>
+                    <i class="fas fa-tag"></i> Best Product <br />Only for you
+                </h1>
+                
+                <div class="hero-actions">
+                    <a href="#" class="btn-primary">
+                        <i class="fas fa-shopping-bag"></i>Buy
+                    </a>
+                    <a href="#" class="btn-secondary">
+                        <i class="fas fa-play-circle"></i> See more
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <h3>500+</h3>
+                        <p>Product</p>
+                    </div>
+                    <div class="stat">
+                        <h3>98%</h3>
+                        <p>Setisfied</p>
+                    </div>
+                    <div class="stat">
+                        <h3>24/7</h3>
+                        <p>Help</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="circle-bg">
+                    <i class="fas fa-shopping-cart"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="card-section">
+        <div class="container">
+            <p class="section-label"><i class="fas fa-star"></i> Feature</p>
+            <h2>Picture</h2>
+            
+
+            <div class="product-card-wrapper">
+                <div class="product-card">
+
+                  
+                    <div class="card-img">
+                        <img
+                        src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&h=400&fit=crop&crop=center&auto=format"
+                        alt="img"
+                        loading="lazy"
+                        />
+                        <span class="tag"><i class="fas fa-bolt"></i> Hot</span>
+
+                        
+                        <div class="wishlist-wrap">
+                            <input type="checkbox" id="wishlistToggle" />
+                            <label for="wishlistToggle" class="wishlist-label" aria-label="List">
+                                <i class="far fa-heart"></i>
+                                <i class="fas fa-heart"></i>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <p class="product-category"><i class="fas fa-tag"></i> Electronics</p>
+                        <h3>Smart watch</h3>
+
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(4.5 · 124 Review)</span>
+                        </div>
+
+                        <p class="description">
+                            Advanced health tracking, waterproof design, and 7-day battery life. 
+                        </p>
+
+                        <div class="price-row">
+                            <div class="price">
+                                <span class="current">4000</span>
+                                <span class="original">2000</span>
+                                <span class="discount">-23%</span>
+                            </div>
+
+                            <div class="btn-add-wrap">
+                                <input type="checkbox" id="addToggle" />
+                                <label for="addToggle" class="btn-add-label" aria-label="add ti caert"></label>
+                                <button class="btn-add" type="button">
+                                    <span class="default-text">
+                                        <i class="fas fa-plus"></i> Add to cart
+                                    </span>
+                                    <span class="added-text">
+                                        <i class="fas fa-check"></i> Added
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <footer class="footer">
+        <div class="container">
+            <div class="copy">
+                &copy; ২০২৬ <i class="fas fa-heart"></i> 
+            </div>
+            <div class="socials">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                <a href="#" aria-label="Instragram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="Tuiter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="Youtube"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
